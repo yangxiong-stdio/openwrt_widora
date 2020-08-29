@@ -9,7 +9,7 @@
 TOPDIR:=${CURDIR}
 LC_ALL:=C
 LANG:=C
-export TOPDIR LC_ALL LANG
+export TOPDIR LC_ALL LANG     #环境变量
 
 empty:=
 space:= $(empty) $(empty)
